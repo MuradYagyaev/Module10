@@ -22,9 +22,6 @@ class Knight(Thread):
             print(f'{self.name}, сражается {day} день(дня), осталось {self.enemies} воинов.')
         print(f'{self.name} одержал победу спустя {day} дней!')
 
-    def __del__(self):
-        pass
-
 
 knight1 = Knight('Sir Lancelot', 10)
 knight2 = Knight('Sir Galahad', 20)
